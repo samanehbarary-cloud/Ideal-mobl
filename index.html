@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171512">
+  <meta name="description" content="مبلمان ایده‌آل در آمل؛ انواع مبلمان راحتی، کلاسیک و مدرن. آدرس: خیابان نور، روبه‌روی فجر ۱۰.">
+  <title>مبلمان ایده‌آل | زیبایی خانه، انتخابی ماندگار</title>
+  <style>
+    :root{--ink:#191714;--dark:#171512;--gold:#d9ad58;--cream:#f8f5ef;--muted:#756f65;--line:#e7dfd2;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--cream);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.9}
+    a{color:inherit;text-decoration:none} .wrap{width:min(1120px,92%);margin:auto}
+    header{background:var(--dark);color:white;border-bottom:2px solid var(--gold);position:sticky;top:0;z-index:5}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:10px 0}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.25rem}.logo{width:48px;height:42px;border:2px solid var(--gold);border-radius:12px 12px 5px 5px;display:grid;place-items:center;color:var(--gold);font-size:25px}
+    nav{display:flex;gap:22px;flex-wrap:wrap;font-size:.92rem;color:#eee} nav a:hover{color:var(--gold)}
+    .hero{background:radial-gradient(ellipse at 18% 30%,#5b4730 0,transparent 38%),linear-gradient(115deg,#29231b,#171512 68%);color:#fff;padding:78px 0 86px;overflow:hidden;position:relative}
+    .hero:after{content:'✦';position:absolute;left:7%;top:8%;font-size:10rem;color:#d9ad58;opacity:.08}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}.eyebrow{color:var(--gold);font-size:.95rem;letter-spacing:.03em}
+    h1{font-size:clamp(2.3rem,5vw,4.4rem);line-height:1.35;margin:12px 0}h1 span{color:var(--gold)}.hero p{color:#e6dfd4;max-width:540px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 23px;border-radius:999px;border:1px solid var(--gold);font-weight:700;gap:8px}.btn.primary{background:var(--gold);color:#211a10}.btn.secondary{color:white}.btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
+    .hero-art{min-height:285px;border:1px solid #6f5b3a;border-radius:24px;background:linear-gradient(140deg,rgba(217,173,88,.16),rgba(255,255,255,.025));display:grid;place-items:center;text-align:center;padding:28px;box-shadow:inset 0 0 70px #0005}.sofa-icon{font-size:7rem;line-height:1;color:var(--gold)}.hero-art strong{display:block;font-size:1.2rem;margin-top:12px}.hero-art small{color:#d7cbb7}
+    section{padding:58px 0}.section-title{text-align:center;margin:0 0 8px;font-size:1.8rem}.section-sub{text-align:center;color:var(--muted);margin:0 0 30px}.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.category,.product{background:#fff;border:1px solid var(--line);border-radius:16px;padding:23px;text-align:center;transition:.2s}.category:hover,.product:hover{border-color:var(--gold);transform:translateY(-3px)}.category .symbol{font-size:2.3rem;color:#a77a2e}.category h3{margin:8px 0 0;font-size:1.05rem}
+    .products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.product-visual{height:130px;border-radius:12px;background:linear-gradient(135deg,#e8dece,#c5b49b);display:grid;place-items:center;font-size:3.8rem;color:#57432d}.product:nth-child(2) .product-visual{background:linear-gradient(135deg,#dddcd6,#a5a49d)}.product:nth-child(3) .product-visual{background:linear-gradient(135deg,#e6d4b6,#ad8a5d)}.product h3{margin:12px 0 3px}.product p{color:var(--muted);font-size:.9rem;margin:0}
+    .why{background:var(--dark);color:white}.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.why-card{border:1px solid #514735;border-radius:14px;padding:22px;text-align:center}.why-card b{display:block;color:var(--gold);font-size:1.08rem;margin-bottom:6px}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}.contact-card{background:white;border:1px solid var(--line);border-radius:18px;padding:26px}.contact-line{display:flex;gap:12px;margin:14px 0}.contact-line .ico{color:#a77a2e;font-size:1.3rem}.map-placeholder{min-height:240px;background:linear-gradient(135deg,#e7e0d4,#f8f5ef);border:1px dashed #c8b58e;border-radius:18px;display:grid;place-items:center;text-align:center;padding:24px;color:#5b5143}
+    footer{background:#111;color:#ddd;padding:25px 0;border-top:2px solid var(--gold)}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.tiny{font-size:.82rem;color:#aaa}
+    @media(max-width:760px){.hero-grid,.contact-grid{grid-template-columns:1fr}.hero{padding:52px 0}.hero-art{min-height:200px}.categories{grid-template-columns:repeat(2,1fr)}.products{grid-template-columns:1fr}.why-grid{grid-template-columns:1fr}nav{gap:13px}.nav{justify-content:center}.brand{width:100%;justify-content:center}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home"><span class="logo">⌂</span><span>مبلمان ایده‌آل<small style="display:block;color:#c9bda9;font-size:.68rem;font-weight:400">انتخابی برای خانه‌ی شما</small></span></a>
+  <nav aria-label="ناوبری اصلی"><a href="#home">صفحه اصلی</a><a href="#categories">محصولات</a><a href="#about">درباره ما</a><a href="#contact">تماس با ما</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid"><div>
+  <div class="eyebrow">خانه‌ای به سبک سلیقه‌ی شما</div>
+  <h1>مبلمان <span>ایده‌آل</span></h1>
+  <h2 style="font-size:1.35rem;font-weight:500;margin:0">زیبایی خانه، انتخابی ماندگار</h2>
+  <p>برای انتخاب مبلمان مناسب خانه‌تان، از محصولات و دسته‌بندی‌های ما دیدن کنید یا مستقیم با نمایشگاه تماس بگیرید.</p>
+  <div class="actions"><a class="btn primary" href="#categories">مشاهده محصولات ←</a><a class="btn secondary" href="tel:09011735757">☎ تماس با ما</a></div>
+</div><div class="hero-art"><div><div class="sofa-icon">🛋</div><strong>فضای دلنشین، انتخاب هوشمندانه</strong><small>تصاویر محصولات به‌زودی اضافه می‌شوند</small></div></div></div></section>
+<section id="categories"><div class="wrap"><h2 class="section-title">دسته‌بندی محصولات</h2><p class="section-sub">سبکی متناسب با سلیقه و فضای خانه‌ی شما</p><div class="categories">
+  <a class="category" href="#featured"><div class="symbol">🛋️</div><h3>مبل راحتی</h3></a><a class="category" href="#featured"><div class="symbol">🪑</div><h3>مبل کلاسیک</h3></a><a class="category" href="#featured"><div class="symbol">✨</div><h3>مبل مدرن</h3></a><a class="category" href="#featured"><div class="symbol">🍽️</div><h3>میز و صندلی</h3></a>
+</div></div></section>
+<section id="featured" style="padding-top:5px"><div class="wrap"><h2 class="section-title">محصولات ویژه</h2><p class="section-sub">نمونه‌ی دسته‌بندی‌ها؛ عکس و مشخصات واقعی را بعداً اضافه می‌کنیم.</p><div class="products">
+  <article class="product"><div class="product-visual">🛋️</div><h3>مبل راحتی</h3><p>مدل‌ها و رنگ‌بندی‌های متنوع</p></article><article class="product"><div class="product-visual">🪑</div><h3>مبل کلاسیک</h3><p>برای فضایی گرم و شیک</p></article><article class="product"><div class="product-visual">🛋️</div><h3>مبل مدرن</h3><p>طراحی ساده و امروزی</p></article>
+</div></div></section>
+<section class="why" id="about"><div class="wrap"><h2 class="section-title">چرا مبلمان ایده‌آل؟</h2><p class="section-sub" style="color:#c8c0b4">با خیال راحت برای خانه‌تان انتخاب کنید</p><div class="why-grid"><div class="why-card"><b>مشاوره‌ی انتخاب</b><span>برای پیدا کردن مدل مناسب فضای شما</span></div><div class="why-card"><b>انتخاب متنوع</b><span>دسته‌بندی برای سلیقه‌های مختلف</span></div><div class="why-card"><b>ارتباط مستقیم</b><span>برای پرسیدن قیمت و موجودی تماس بگیرید</span></div></div></div></section>
+<section id="contact"><div class="wrap"><h2 class="section-title">تماس با ما</h2><p class="section-sub">برای اطلاعات محصولات و بازدید از نمایشگاه با ما در ارتباط باشید.</p><div class="contact-grid"><div class="contact-card"><div class="contact-line"><span class="ico">☎</span><div><strong>شماره تماس</strong><br><a href="tel:09011735757" dir="ltr">09011735757</a></div></div><div class="contact-line"><span class="ico">📍</span><div><strong>آدرس نمایشگاه</strong><br>آمل، خیابان نور، دقیقاً روبه‌روی فجر ۱۰</div></div><a class="btn primary" href="tel:09011735757">تماس مستقیم</a></div><div class="map-placeholder"><div><div style="font-size:2.5rem">📍</div><strong>مبلمان ایده‌آل</strong><p>آمل، خیابان نور، روبه‌روی فجر ۱۰</p><small>نقشه‌ی دقیق را بعداً اضافه می‌کنیم.</small></div></div></div></div></section>
+</main>
+<footer><div class="wrap footer-inner"><strong style="color:var(--gold)">مبلمان ایده‌آل</strong><span class="tiny">زیبایی خانه، انتخابی ماندگار</span><span class="tiny">© تمامی حقوق محفوظ است</span></div></footer>
+</body></html>
